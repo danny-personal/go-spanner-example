@@ -1,3 +1,4 @@
+// Adapted from https://github.com/GoogleCloudPlatform/golang-samples/
 package main
 
 import (
