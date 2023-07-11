@@ -3,7 +3,10 @@
 {
 	"name": "Go",
 	// Or use a Dockerfile or Docker Compose file. More info: https://containers.dev/guide/dockerfile
-	"image": "mcr.microsoft.com/devcontainers/go:0-1.20",
+//	"image": "mcr.microsoft.com/devcontainers/go:0-1.20",
+	"build": {
+		"dockerfile": "Dockerfile"
+	},
 	"features": {
 		"ghcr.io/dhoeric/features/google-cloud-cli:1": {}
 	},
@@ -25,7 +28,9 @@
 	"customizations": {
 		"vscode": {
 			"extensions": [
-				"bierner.markdown-mermaid"
+				"bierner.markdown-mermaid",
+				"zxh404.vscode-proto3",
+				"xaver.clang-format"
 			]
 		}
 	}
