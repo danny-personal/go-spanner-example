@@ -7,8 +7,8 @@ package singerv1connect
 import (
 	context "context"
 	errors "errors"
-	connect_go "github.com/bufbuild/connect-go"
 	v1 "github.com/danny-yamamoto/go-spanner-example/gen/singer/v1"
+	connect_go "github.com/bufbuild/connect-go"
 	http "net/http"
 	strings "strings"
 )

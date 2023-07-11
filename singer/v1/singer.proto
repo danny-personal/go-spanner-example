@@ -2,7 +2,7 @@ syntax = "proto3";
 
 package singer.v1;
 
-option go_package ="github.com/danny-yamamoto/go-spanner-example/gen/singer/v1;singerv1";
+option go_package ="example/gen/singer/v1;singerv1";
 
 message SingerRequest {
   int64 singerId = 1;
