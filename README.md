@@ -28,5 +28,9 @@ export SPANNER_EMULATOR_HOST=host.docker.internal:9010
 echo $SPANNER_EMULATOR_HOST
 ```
 
+```bash
+curl --header "Content-Type: application/json" --data '{"singerId": 10}'     http://localhost:8080/singer.v1.SingerService/Singer
+```
+
 ## Reference
 - [Cloud Spanner Emulator](https://github.com/GoogleCloudPlatform/cloud-spanner-emulator)
